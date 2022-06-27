@@ -1,0 +1,26 @@
+{
+  "files": {
+    "effects.py": [
+      {
+        "id": "e4775acf-8a38-48c1-80df-8e11aefe1289",
+        "line": 275,
+        "version": 2746,
+        "index": 9181
+      }
+    ],
+    "save.json": [
+      {
+        "id": "33c8188b-c1e5-4afa-8c7a-168acff56319",
+        "line": 1,
+        "version": 3366,
+        "index": 0
+      },
+      {
+        "id": "b28fb3ff-d80a-49c5-a521-969653523993",
+        "line": 1,
+        "version": 3366,
+        "index": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+    "208093963465261057": {
+        "bag": {},
+        "cmds_ran": 3,
+        "effects": {},
+        "level": 0,
+        "manna": 300,
+        "name": "MrSneaky#5502",
+        "points": 100,
+        "streak": 4
+    },
+    "347325245650239489": {
+        "bag": {},
+        "cmds_ran": 1,
+        "effects": {},
+        "level": 0,
+        "manna": 80,
+        "name": "RagnarokHixson#4763",
+        "points": 125,
+        "streak": 1
+    },
+    "363417128130576397": {
+        "bag": {},
+        "cmds_ran": 1,
+        "effects": {},
+        "level": 0,
+        "manna": 150,
+        "name": "Run Vase#1474",
+        "points": 175,
+        "streak": 2
+    },
+    "711828107061100615": {
+        "bag": {},
+        "cmds_ran": 4,
+        "effects": {},
+        "level": 0,
+        "manna": 0,
+        "name": "Shisui_#0001",
+        "points": 0,
+        "streak": 0
+    },
+    "733966774982148107": {
+        "bag": {
+            "DONUT": {
+                "count": 1
+            }
+        },
+        "cmds_ran": 137,
+        "effects": {},
+        "level": 9,
+        "manna": 6575,
+        "name": "Hisui#6217",
+        "points": 2325,
+        "streak": 0
+    },
+    "743059303342276661": {
+        "bag": {
+            "BREAD": {
+                "count": 5
+            },
+            "CHICKEN": {
+                "count": 5
+            },
+            "DONUT": {
+                "count": 5
+            }
+        },
+        "cmds_ran": 228,
+        "effects": {
+            "ELIJAH": {
+                "count": 1
+            },
+            "FRIDAY": {
+                "count": 1
+            },
+            "JESUS": {
+                "count": 2
+            },
+            "LAZARUS": {
+                "count": 2
+            }
+        },
+        "level": 18,
+        "manna": 12972,
+        "name": "Paddington#3061",
+        "points": 4575,
+        "streak": 201
+    },
+    "829619198544183327": {
+        "bag": {
+            "BREAD": {
+                "count": 3
+            },
+            "CHICKEN": {
+                "count": 1
+            }
+        },
+        "cmds_ran": 476,
+        "effects": {
+            "ABRAHAM": {
+                "count": 1
+            },
+            "DANIEL": {
+                "count": 2
+            },
+            "JESUS": {
+                "count": 8
+            },
+            "JONAH": {
+                "count": 1
+            },
+            "LAZARUS": {
+                "count": 1
+            },
+            "REVELATION": {
+                "count": 2
+            }
+        },
+        "level": 34,
+        "manna": 19615,
+        "name": "w33h33#4066",
+        "points": 8633,
+        "streak": 41
+    },
+    "853767635258572822": {
+        "bag": {
+            "BREAD": {
+                "count": 1
+            }
+        },
+        "cmds_ran": 7,
+        "effects": {},
+        "level": 1,
+        "manna": 150,
+        "name": "Dread#5091",
+        "points": 50,
+        "streak": 2
+    },
+    "872220768644268063": {
+        "bag": {},
+        "cmds_ran": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 75,
+        "name": "Alister#5868",
+        "points": 100,
+        "streak": 1
+    },
+    "893340787520196618": {
+        "bag": {},
+        "cmds_ran": 15,
+        "effects": {},
+        "level": 1,
+        "manna": 900,
+        "name": "N\u012bL\u00f8#2645",
+        "points": 300,
+        "streak": 12
+    },
+    "905809652342718494": {
+        "bag": {},
+        "cmds_ran": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 75,
+        "name": "Sabbath Keeper#3855",
+        "points": 75,
+        "streak": 1
+    },
+    "908234266301829132": {
+        "bag": {
+            "BREAD": {
+                "count": 2
+            },
+            "CHICKEN": {
+                "count": 2
+            },
+            "DONUT": {
+                "count": 2
+            }
+        },
+        "cmds_ran": 971,
+        "effects": {},
+        "level": 11,
+        "manna": 8027,
+        "name": "Grizzly.#8401",
+        "points": 2800,
+        "streak": 1
+    },
+    "909787406490796073": {
+        "bag": {},
+        "cmds_ran": 0,
+        "effects": {},
+        "level": 1,
+        "manna": 50,
+        "name": "audreyy#2145",
+        "points": 0,
+        "streak": 0
+    },
+    "983916041384112168": {
+        "bag": {
+            "DONUT": {
+                "count": 2
+            },
+            "MYCRATE": {
+                "count": 3
+            }
+        },
+        "cmds_ran": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 1000,
+        "name": "Heroes Bible Trivia Bot#8475",
+        "points": 0,
+        "streak": 777
+    }
+}

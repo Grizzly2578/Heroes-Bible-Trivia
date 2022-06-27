@@ -1,0 +1,83 @@
+{
+    "ABRAHAM": {
+        "name": "ABRAHAM EFFECT",
+        "price": 100,
+        "icon": "<:Abraham:985787855588704256>",
+        "id": "ABRAHAM",
+        "image": "https://i.imgur.com/4vWj4gB.png",
+        "description": "Divides The Answers In Half Just Like Abraham Cut The Animals In Half.",
+        "status": "usable"
+    },
+    "DANIEL": {
+        "name": "DANIEL EFFECT",
+        "price": 100,
+        "icon": "<:Daniel:985787847799889930>",
+        "id": "DANIEL",
+        "image": "https://i.imgur.com/79MXkpC.png",
+        "description": "Reveals The Bible Verse Where The Correct Answer Is Found.",
+        "status": "usable"
+    },
+    "ELIJAH": {
+        "name": "ELIJAH EFFECT",
+        "price": 100,
+        "icon": "<:Elijah:985787839268651110>",
+        "id": "ELIJAH",
+        "image": "https://i.imgur.com/NtHcaY0.png",
+        "description": "Gives You A Double Portion Of XP.",
+        "status": "usable"
+    },
+    "FRIDAY": {
+        "name": "FRIDAY EFFECT",
+        "price": 100,
+        "icon": "<:Friday:985787835481206804>",
+        "id": "FRIDAY",
+        "image": "https://i.imgur.com/yj6qzsE.png",
+        "description": "Doubles The Manna Awarded By Each Correct Answer.",
+        "status": "usable"
+    },
+    "JONAH": {
+        "name": "JONAH EFFECT",
+        "price": 100,
+        "icon": "<:Jonah:985787823812657203>",
+        "id": "JONAH",
+        "image": "https://i.imgur.com/2HOp8kf.png",
+        "description": "Allows You To Skip Questions Like Jonah Tried To Skip His Mission.",
+        "status": "usable"
+    },
+    "JOSHUA": {
+        "name": "JOSHUA EFFECT",
+        "price": 100,
+        "icon": "<:Joshua:985787817173069834>",
+        "id": "JOSHUA",
+        "image": "https://i.imgur.com/oD89N44.png",
+        "description": "Freezes Time For 5 Seconds Just As The Sun Stopped For Joshua.",
+        "status": "unusable"
+    },
+    "JESUS": {
+        "name": "JESUS EFFECT",
+        "price": 100,
+        "icon": "<:Jesus:985787828665475073>",
+        "id": "JESUS",
+        "image": "https://i.imgur.com/eRNkk1c.png",
+        "description": "Removes Your Errors And Shows The Way.",
+        "status": "usable"
+    },
+    "LAZARUS": {
+        "name": "LAZARUS EFFECT",
+        "price": 100,
+        "icon": "<:Lazarus:985787807949803540>",
+        "id": "LAZARUS",
+        "image": "https://i.imgur.com/eRNkk1c.png",
+        "description": "Gives A Second Chance If You Get An Answer Wrong.",
+        "status": "usable"
+    },
+    "REVELATION": {
+        "name": "REVELATION EFFECT",
+        "price": 100,
+        "icon": "<:Revelation:985787800832069632>",
+        "id": "REVELATION",
+        "image": "https://i.imgur.com/heyHLzZ.png",
+        "description": "Halves The Match Time If All Your Answers Are Correct.",
+        "status": "unusable"
+    }
+}

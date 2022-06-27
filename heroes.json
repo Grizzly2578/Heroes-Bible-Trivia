@@ -1,0 +1,27 @@
+{
+    "ADAM AND EVE": {
+        "color": "0x1980E1",
+        "image": "https://i.imgur.com/BtkeMJH.png",
+        "name": "ADAM AND EVE"
+    },
+    "JOSEPH": {
+        "color": "0xB556BF",
+        "image": "https://i.imgur.com/A3PQDs9.png",
+        "name": "JOSEPH"
+    },
+    "MOSES": {
+        "color": "0x1980E1",
+        "image": "https://i.imgur.com/jsNYi5E.png",
+        "name": "MOSES"
+    },
+    "NOAH": {
+        "color": "0x1980E1",
+        "image": "https://i.imgur.com/GURhfvt.png",
+        "name": "NOAH"
+    },
+    "RUTH": {
+        "color": "0xEC733A",
+        "image": "https://i.imgur.com/SQm032E.png",
+        "name": "RUTH"
+    }
+}
