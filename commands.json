@@ -1,0 +1,21 @@
+{
+    "default": {
+        "1": {
+          "EFFECTS": "Shows The Effects Interface.",
+          "GAME": "Shows The Game Description.",
+          "HELP": "Shows The List of Commands.",
+          "MANNA": "Shows The Manna Interface."
+        },
+        "2": {
+          "PING": "Shows The Bot's Latency Rate.",
+          "PREFIX": "Shows The Bot's Current Prefix.",
+          "PROFILE": "Shows The User's Profile."
+        },
+        "3": {
+          "SERVERS":"Shows Some Public Servers The Bot is Member of.",
+          "SHOP": "Shows The Shop Interface.",
+          "TOP": "Shows The Leaderboard.",
+          "TRIVIA": "Shows The Quiz Interface."
+        }
+    }
+}

@@ -1,7 +1,7 @@
 import json
 import random
+import nextcord
 
-from config import discord, add_command_count, owners, on_cooldown
 from nextcord.ext import commands
 
 from nextcord import SlashOption, Interaction, slash_command
@@ -20,7 +20,7 @@ class facts(commands.Cog):
     
     fact = fax[randomnum - 1]
 
-    embed = discord.Embed(
+    embed = nextcord.Embed(
       title="Fact!",
       description=f"{fact}"
     )
@@ -29,14 +29,14 @@ class facts(commands.Cog):
   
   @fact.after_invoke
   async def fact_invoke(self, ctx):
-    await add_command_count(ctx.author)
-    for id in owners:
+    await self.bot.add_command_count(ctx.author)
+    for id in list(self.bot.owner_ids):
       if id == ctx.author.id:
         ctx.command.reset_cooldown(ctx)
 
   @fact.error
   async def fact_error(self, ctx:commands.Context, error):
-    await on_cooldown(ctx, error)
+    await self.bot.on_cooldown(ctx, error)
 
 
 

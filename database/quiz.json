@@ -1,0 +1,621 @@
+{
+    "heroes": {
+        "ADAM AND EVE": {
+            "color": "0x1980E1",
+            "image": "https://i.imgur.com/BtkeMJH.png",
+            "name": "ADAM AND EVE"
+        },
+        "JOSEPH": {
+            "color": "0xB556BF",
+            "image": "https://i.imgur.com/A3PQDs9.png",
+            "name": "JOSEPH"
+        },
+        "MOSES": {
+            "color": "0x1980E1",
+            "image": "https://i.imgur.com/jsNYi5E.png",
+            "name": "MOSES"
+        },
+        "NOAH": {
+            "color": "0x1980E1",
+            "image": "https://i.imgur.com/GURhfvt.png",
+            "name": "NOAH"
+        },
+        "RUTH": {
+            "color": "0xEC733A",
+            "image": "https://i.imgur.com/SQm032E.png",
+            "name": "RUTH"
+        }
+    },
+    "questions": {
+        "After I Revealed My Identity. Who Did I Say To Bring To Egypt?": {
+            "answer": "B",
+            "choices": [
+                "A. Benjamin",
+                "B. My Father",
+                "C. My Mother",
+                "D. My Ex-Wife"
+            ],
+            "hero": "JOSEPH"
+        },
+        "After We Ate The Forbidden Fruit, What Did We Realize?": {
+            "answer": "C",
+            "choices": [
+                "A. We Were Beautiful",
+                "B. We Can No Longer Fly",
+                "C. We Were Naked",
+                "D. Nobody Loved Us"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "Apart From My Family, What Was On People's Minds?": {
+            "answer": "A",
+            "choices": [
+                "A. Evil",
+                "B. Love",
+                "C. Happiness",
+                "D. Jealousy"
+            ],
+            "hero": "NOAH"
+        },
+        "From What Tree Could We Not Eat The Fruit?": {
+            "answer": "D",
+            "choices": [
+                "A. Tree Of Pure Evil",
+                "B. Tree Of Faith",
+                "C. Tree Of Kindness",
+                "D. Tree Of Knowledge"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "How Did We Dress Before We Sinned?": {
+            "answer": "B",
+            "choices": [
+                "A. We Dressed In Coats",
+                "B. We Were Naked",
+                "C. With Leaves and Berries",
+                "D. In The Latest Fashion"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "How Did We Escape From Pharaoh": {
+            "answer": "C",
+            "choices": [
+                "A. He Let Us Go",
+                "B. He Killed Our Enemies",
+                "C. I Parted The Red Sea",
+                "D. We Didn't"
+            ],
+            "hero": "MOSES"
+        },
+        "How Is Naomi Related To Me?": {
+            "answer": "C",
+            "choices": [
+                "A. My Daughter-In-Law",
+                "B. My Mother",
+                "C. My Mother-In-Law",
+                "D. My Aunt"
+            ],
+            "hero": "RUTH"
+        },
+        "How Long Did Adam Live?": {
+            "answer": "C",
+            "choices": [
+                "A. 87 Years",
+                "B. 6,000 Years",
+                "C. 930 years",
+                "D. 1,234 years"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "How Many Commandments Did God Give My People?": {
+            "answer": "B",
+            "choices": [
+                "A. 4",
+                "B. 10",
+                "C. 12",
+                "D. 49"
+            ],
+            "hero": "MOSES"
+        },
+        "How Many Of Each Unclean Animal Went Into The Ark?": {
+            "answer": "C",
+            "choices": [
+                "A. 200",
+                "B. 22",
+                "C. 2",
+                "D. 78"
+            ],
+            "hero": "NOAH"
+        },
+        "How Many Sons Did My Mother-In-Law Have?": {
+            "answer": "D",
+            "choices": [
+                "A. 7",
+                "B. 0",
+                "C. 13",
+                "D. 2"
+            ],
+            "hero": "RUTH"
+        },
+        "How Many Years Of Famine Were There?": {
+            "answer": "A",
+            "choices": [
+                "A. 7",
+                "B. 42",
+                "C. 12",
+                "D. 100"
+            ],
+            "hero": "JOSEPH"
+        },
+        "My Mother-In-Law Told Me She Was Too Old To Do What?": {
+            "answer": "B",
+            "choices": [
+                "A. Have Children",
+                "B. Remarry",
+                "C. Work",
+                "D. Travel"
+            ],
+            "hero": "RUTH"
+        },
+        "The Ark God Commanded Us To Build Would Hold What?": {
+            "answer": "D",
+            "choices": [
+                "A. iPads",
+                "B. Paper Scrolls",
+                "C. Clothes",
+                "D. Stone Tablets"
+            ],
+            "hero": "MOSES"
+        },
+        "What Did Boaz Tell His Workers To Let Me Do In His Fields?": {
+            "answer": "C",
+            "choices": [
+                "A. Have A Rest",
+                "B. Work With The Men",
+                "C. Gather Fallen Grain",
+                "D. Sing For The Men"
+            ],
+            "hero": "RUTH"
+        },
+        "What Did God Call Out When We Hid From Him?": {
+            "answer": "D",
+            "choices": [
+                "A. Coming! Ready Or Not!",
+                "B. Come Out! Come Out!",
+                "C. Where Could They Be?",
+                "D. Where Are You?"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "What Did God Do After He Created Us?": {
+            "answer": "B",
+            "choices": [
+                "A. Cursed Us",
+                "B. Blessed Us",
+                "C. Despised Us",
+                "D. Envied Us"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "What Did I Do In Prison?": {
+            "answer": "D",
+            "choices": [
+                "A. Tell People About God",
+                "B. Beat People Up",
+                "C. Groan In Agony",
+                "D. Interpret Dreams"
+            ],
+            "hero": "JOSEPH"
+        },
+        "What Did I Do To Help My Mother-In-Law?": {
+            "answer": "B",
+            "choices": [
+                "A. Sell Jewelry",
+                "B. Gather Fallen Grain",
+                "C. Clean Houses",
+                "D. Sell Pots And Pans"
+            ],
+            "hero": "RUTH"
+        },
+        "What Did I Order To Be Planted In Benjamin's Sack?": {
+            "answer": "A",
+            "choices": [
+                "A. Silver Cup",
+                "B. Something Else",
+                "C. Money",
+                "D. Bible"
+            ],
+            "hero": "JOSEPH"
+        },
+        "What Did I Remove At The Burning Bush?": {
+            "answer": "B",
+            "choices": [
+                "A. My Bracelet",
+                "B. My Sandals",
+                "C. My Jacket",
+                "D. My Hat"
+            ],
+            "hero": "MOSES"
+        },
+        "What Did I Send Out To Find Dry Land?": {
+            "answer": "D",
+            "choices": [
+                "A. An Ape",
+                "B. A Lion",
+                "C. My Son",
+                "D. A Bird"
+            ],
+            "hero": "NOAH"
+        },
+        "What Did Our Son Cain Do To His Brother Abel?": {
+            "answer": "A",
+            "choices": [
+                "A. Killed Him",
+                "B. Chased Him",
+                "C. Prayed For Him",
+                "D. Wounded Him"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "What Did We Store In The Ark?": {
+            "answer": "D",
+            "choices": [
+                "A. Water",
+                "B. Bread",
+                "C. Babies",
+                "D. Every Kind Of Food"
+            ],
+            "hero": "NOAH"
+        },
+        "What New Person Travelled With My Ten Brothers Back To Egypt?": {
+            "answer": "D",
+            "choices": [
+                "A. Dan",
+                "B. Jacob",
+                "C. Issachar",
+                "D. Benjamin"
+            ],
+            "hero": "JOSEPH"
+        },
+        "What Should Have Happened To Me When I Was Born?": {
+            "answer": "D",
+            "choices": [
+                "A. Prisoned",
+                "B. Praised",
+                "C. Adopted",
+                "D. Killed"
+            ],
+            "hero": "MOSES"
+        },
+        "What Sign Did God Give Us To Remind Us Of His Promise?": {
+            "answer": "C",
+            "choices": [
+                "A. Hail",
+                "B. Sunshine",
+                "C. Rainbow",
+                "D. Rain"
+            ],
+            "hero": "NOAH"
+        },
+        "What Was God Going To Do?": {
+            "answer": "C",
+            "choices": [
+                "A. Put Me In Charge",
+                "B. Kill The Sinners",
+                "C. Send A Flood",
+                "D. Cause An Earthquake"
+            ],
+            "hero": "NOAH"
+        },
+        "What Was I Doing When I Met Boaz?": {
+            "answer": "C",
+            "choices": [
+                "A. Planting Potatoes",
+                "B. Picking Grapes",
+                "C. Gathering Barley",
+                "D. Looking After Sheep"
+            ],
+            "hero": "RUTH"
+        },
+        "What Was I Put In As A Baby To Escape Death?": {
+            "answer": "D",
+            "choices": [
+                "A. A Crib",
+                "B. A High Chair",
+                "C. A Bassinet",
+                "D. A Basket"
+            ],
+            "hero": "MOSES"
+        },
+        "What Was My First Crime Against Pharaoh?": {
+            "answer": "D",
+            "choices": [
+                "A. I Bargained With The Queen",
+                "B. I Broke The Speed Limit",
+                "C. I Never Committed A Crime",
+                "D. I Killed A Man"
+            ],
+            "hero": "MOSES"
+        },
+        "What Was My Job?": {
+            "answer": "B",
+            "choices": [
+                "A. Soldier",
+                "B. Leader",
+                "C. Chef",
+                "D. King"
+            ],
+            "hero": "MOSES"
+        },
+        "What Was The Name Of Our Garden?": {
+            "answer": "A",
+            "choices": [
+                "A. Eden",
+                "B. Hanging Gardens",
+                "C. Paradise",
+                "D. Gethsemane"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "What Was The Name Of Our Third Son?": {
+            "answer": "A",
+            "choices": [
+                "A. Seth",
+                "B. Jesus",
+                "C. Jeremiah",
+                "D. Gabriel"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "What Were My Mother-In-Law's Sons Called?": {
+            "answer": "A",
+            "choices": [
+                "A. Chilion and Mahlon",
+                "B. James and John",
+                "C. Peter and John",
+                "D. John and Paul"
+            ],
+            "hero": "RUTH"
+        },
+        "When I Arrived In Bethlehem, Which Crop Was Being Harvested?": {
+            "answer": "B",
+            "choices": [
+                "A. Wheat",
+                "B. Barley",
+                "C. Rice",
+                "D. Apples"
+            ],
+            "hero": "RUTH"
+        },
+        "Where Did I Go After I Was Sold?": {
+            "answer": "A",
+            "choices": [
+                "A. Egypt",
+                "B. Bethlehem",
+                "C. Uk",
+                "D. Rome"
+            ],
+            "hero": "JOSEPH"
+        },
+        "Where Did My Brothers Throw Me?": {
+            "answer": "A",
+            "choices": [
+                "A. Into A Well",
+                "B. Into A Ditch",
+                "C. Into A Cave",
+                "D. Off A Cliff"
+            ],
+            "hero": "JOSEPH"
+        },
+        "Where Was Adam Looking When He Realized He Doesn't Have A Partner?": {
+            "answer": "D",
+            "choices": [
+                "A. Among The Birds",
+                "B. Among The Flowers",
+                "C. Among The Trees",
+                "D. Among The Animals"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "Which Animal Did God Curse?": {
+            "answer": "B",
+            "choices": [
+                "A. Hamster",
+                "B. Snake",
+                "C. Frog",
+                "D. Cat"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "Which Animals Went Into The Ark?": {
+            "answer": "B",
+            "choices": [
+                "A. Female Only",
+                "B. Every Species",
+                "C. Only The Young",
+                "D. Male Only"
+            ],
+            "hero": "NOAH"
+        },
+        "Which Of These Is Not My Son?": {
+            "answer": "B",
+            "choices": [
+                "A. Ham",
+                "B. Adam",
+                "C. Japheth",
+                "D. Shem"
+            ],
+            "hero": "NOAH"
+        },
+        "Which Of These Was Not A Command God Gave Me?": {
+            "answer": "C",
+            "choices": [
+                "A. Remember The Sabbath",
+                "B. Do Not Commit Adultery",
+                "C. Love One Another",
+                "D. Do Not Murder"
+            ],
+            "hero": "MOSES"
+        },
+        "Who Blessed Me?": {
+            "answer": "C",
+            "choices": [
+                "A. Nobody",
+                "B. Jesus",
+                "C. God",
+                "D. My Father"
+            ],
+            "hero": "JOSEPH"
+        },
+        "Who Is My Most Famous Descendant?": {
+            "answer": "B",
+            "choices": [
+                "A. Mary",
+                "B. Jesus",
+                "C. Jezebel",
+                "D. Elizabeth"
+            ],
+            "hero": "RUTH"
+        },
+        "Who Saved Me?": {
+            "answer": "B",
+            "choices": [
+                "A. My Family",
+                "B. God",
+                "C. The World",
+                "D. My Sons"
+            ],
+            "hero": "NOAH"
+        },
+        "Who Talked To My Father While On His Way To Me?": {
+            "answer": "B",
+            "choices": [
+                "A. Me",
+                "B. God",
+                "C. Jesus",
+                "D. Zebulun"
+            ],
+            "hero": "JOSEPH"
+        },
+        "Who Tempted Me To Sleep With Her?": {
+            "answer": "C",
+            "choices": [
+                "A. Potiphar's Daughter",
+                "B. My Wife",
+                "C. Potiphar's Wife",
+                "D. A Prostitute"
+            ],
+            "hero": "JOSEPH"
+        },
+        "Who Was I Sold To?": {
+            "answer": "A",
+            "choices": [
+                "A. Potiphar",
+                "B. Cupbearer",
+                "C. Pharaoh",
+                "D. Potiphar's Wife"
+            ],
+            "hero": "JOSEPH"
+        },
+        "Who Was Killed In The Flood?": {
+            "answer": "A",
+            "choices": [
+                "A. Everyone But My Family",
+                "B. My Sons",
+                "C. Only Our Neighbors",
+                "D. Everyone But My Family and Friends"
+            ],
+            "hero": "NOAH"
+        },
+        "Who Was My Brother?": {
+            "answer": "A",
+            "choices": [
+                "A. Aaron",
+                "B. Jonathan",
+                "C. Caleb",
+                "D. Pharaoh"
+            ],
+            "hero": "MOSES"
+        },
+        "Who Was My Father?": {
+            "answer": "D",
+            "choices": [
+                "A. Noah",
+                "B. Joseph",
+                "C. Abraham",
+                "D. Jacob"
+            ],
+            "hero": "JOSEPH"
+        },
+        "Who Watched Over Me From A Distance?": {
+            "answer": "B",
+            "choices": [
+                "A. The Soldiers",
+                "B. My Sister",
+                "C. The Camels",
+                "D. The Crocodiles"
+            ],
+            "hero": "MOSES"
+        },
+        "Who Went On The Ark?": {
+            "answer": "A",
+            "choices": [
+                "A. My Family",
+                "B. My Father",
+                "C. Everyone",
+                "D. My Aunts and Uncles"
+            ],
+            "hero": "NOAH"
+        },
+        "Who Would God Rescue?": {
+            "answer": "B",
+            "choices": [
+                "A. No One",
+                "B. My Family And Me",
+                "C. Everyone",
+                "D. Just Me"
+            ],
+            "hero": "NOAH"
+        },
+        "Why Did God Create Us?": {
+            "answer": "C",
+            "choices": [
+                "A. He Was Bored",
+                "B. To Be His Toys",
+                "C. To Rule Over All Living Creatures",
+                "D. To Be His Puppets"
+            ],
+            "hero": "ADAM AND EVE"
+        },
+        "Why Did I Send Scouts Out?": {
+            "answer": "C",
+            "choices": [
+                "A. To See If There Were Any Egyptians",
+                "B. To Pray",
+                "C. To Explore The Land",
+                "D. To Conquer Different Nations"
+            ],
+            "hero": "MOSES"
+        },
+        "Why Did My Father-In-Law Elimelech And His Family Go To Moab?": {
+            "answer": "C",
+            "choices": [
+                "A. An Angel Told Them To",
+                "B. The Houses Were Cheaper",
+                "C. There Was A Famine In Israel",
+                "D. The Climate Was Better"
+            ],
+            "hero": "RUTH"
+        },
+        "Why Did My Mother-In-Law Come To Moab?": {
+            "answer": "C",
+            "choices": [
+                "A. She Was Captured",
+                "B. To Escape War",
+                "C. Due To A Famine In Israel",
+                "D. To Find Work"
+            ],
+            "hero": "RUTH"
+        }
+    }
+}

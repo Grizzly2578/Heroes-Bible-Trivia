@@ -1,72 +1,412 @@
 {
+    "1006555151810711673": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 0,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 425,
+        "name": "koda_bear16#8149",
+        "points": 200,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "1078873963062636584": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 12,
+        "effects": {},
+        "level": 1,
+        "manna": 900,
+        "name": "davi1233#8523",
+        "points": 300,
+        "streak": 12,
+        "wrong_answers": 0
+    },
+    "1128380247981686804": {
+        "bag": {},
+        "cmds_ran": 2,
+        "correct_answers": 83,
+        "effects": {},
+        "level": 8,
+        "manna": 5550,
+        "name": "fadetolight#0",
+        "points": 2075,
+        "streak": 3,
+        "wrong_answers": 0
+    },
+    "1134871141438197780": {
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 0,
+        "name": "kipacs#0",
+        "points": 0,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "118096903974944771": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 2,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 3,
+        "manna": 1875,
+        "name": "Truzedo#1382",
+        "points": 725,
+        "streak": 6,
+        "wrong_answers": 0
+    },
+    "1228355452367142912": {
+        "badges": [
+            "developer"
+        ],
+        "bag": {},
+        "cmds_ran": 10,
+        "correct_answers": 22,
+        "effects": {},
+        "level": 2,
+        "manna": 1650,
+        "name": "alchyrean",
+        "points": 550,
+        "streak": 22,
+        "wrong_answers": 0
+    },
     "208093963465261057": {
+        "badges": [],
         "bag": {},
         "cmds_ran": 3,
+        "correct_answers": 0,
         "effects": {},
         "level": 0,
         "manna": 300,
         "name": "MrSneaky#5502",
         "points": 100,
-        "streak": 4
+        "streak": 4,
+        "wrong_answers": 0
+    },
+    "345656252157919232": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 4,
+        "correct_answers": 28,
+        "effects": {},
+        "level": 3,
+        "manna": 2100,
+        "name": "ender_wiggin1#4982",
+        "points": 700,
+        "streak": 28,
+        "wrong_answers": 0
     },
     "347325245650239489": {
+        "badges": [],
         "bag": {},
         "cmds_ran": 1,
+        "correct_answers": 0,
         "effects": {},
         "level": 0,
         "manna": 80,
         "name": "RagnarokHixson#4763",
         "points": 125,
-        "streak": 1
+        "streak": 1,
+        "wrong_answers": 0
     },
     "363417128130576397": {
+        "badges": [],
         "bag": {},
-        "cmds_ran": 1,
+        "cmds_ran": 2,
+        "correct_answers": 0,
         "effects": {},
         "level": 0,
         "manna": 150,
         "name": "Run Vase#1474",
         "points": 175,
-        "streak": 2
+        "streak": 2,
+        "wrong_answers": 0
     },
-    "711828107061100615": {
+    "368696235453972482": {
+        "badges": [],
         "bag": {},
-        "cmds_ran": 4,
+        "cmds_ran": 1,
+        "correct_answers": 0,
         "effects": {},
         "level": 0,
         "manna": 0,
-        "name": "Shisui_#0001",
+        "name": "gongoozler#0264",
         "points": 0,
-        "streak": 0
+        "streak": 0,
+        "wrong_answers": 0
     },
-    "733966774982148107": {
+    "370652816034758657": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 11,
+        "correct_answers": 6,
+        "effects": {},
+        "level": 0,
+        "manna": 425,
+        "name": "andrea#2627",
+        "points": 175,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "406790706880053248": {
+        "bag": {},
+        "cmds_ran": 6,
+        "correct_answers": 6,
+        "effects": {},
+        "level": 0,
+        "manna": 450,
+        "name": "tomato4vr#0",
+        "points": 150,
+        "streak": 6,
+        "wrong_answers": 0
+    },
+    "414363406036893696": {
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 10,
+        "effects": {},
+        "level": 1,
+        "manna": 700,
+        "name": "vert_nk26#0",
+        "points": 250,
+        "streak": 4,
+        "wrong_answers": 0
+    },
+    "439592419525394443": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 21,
+        "correct_answers": 7,
+        "effects": {},
+        "level": 2,
+        "manna": 1250,
+        "name": "stevetheman1802#0",
+        "points": 475,
+        "streak": 4,
+        "wrong_answers": 0
+    },
+    "477829379490054176": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 2,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 100,
+        "name": "\u30d8\u30e0\u30ed\u30f3#5680",
+        "points": 25,
+        "streak": 1,
+        "wrong_answers": 0
+    },
+    "491598241151057941": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 3,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 225,
+        "name": "Bertold#8198",
+        "points": 75,
+        "streak": 3,
+        "wrong_answers": 0
+    },
+    "499474894984052744": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 3,
+        "correct_answers": 23,
+        "effects": {},
+        "level": 3,
+        "manna": 1925,
+        "name": "Mr.L NL#2681",
+        "points": 650,
+        "streak": 22,
+        "wrong_answers": 0
+    },
+    "525036909400031242": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 2,
+        "correct_answers": 17,
+        "effects": {},
+        "level": 2,
+        "manna": 1125,
+        "name": "Zachary2k13#7578",
+        "points": 425,
+        "streak": 1,
+        "wrong_answers": 0
+    },
+    "525781750622846996": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 2,
+        "correct_answers": 2,
+        "effects": {},
+        "level": 0,
+        "manna": 150,
+        "name": "Gecko#4753",
+        "points": 50,
+        "streak": 2,
+        "wrong_answers": 0
+    },
+    "532622545661198359": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 8,
+        "effects": {},
+        "level": 0,
+        "manna": 550,
+        "name": "\ud835\udd7d\ud835\udd94\ud835\udd92\ud835\udd86\ud835\udd93\ud835\udd8e\ud835\udd86\ud835\udd93 \ud835\udd72\ud835\udd8a\ud835\udd97\ud835\udd92\ud835\udd86\ud835\udd93\ud835\udd94\ud835\udd95\ud835\udd8d\ud835\udd8e\ud835\udd91\ud835\udd8a \ud83c\uddf7\ud83c\uddf4#8886",
+        "points": 200,
+        "streak": 1,
+        "wrong_answers": 0
+    },
+    "549950426791804951": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 75,
+        "name": "noddynod443#7358",
+        "points": 25,
+        "streak": 1,
+        "wrong_answers": 0
+    },
+    "606966059756421141": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 250,
+        "name": "eros#1732",
+        "points": 100,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "611674961471471717": {
+        "badges": [],
         "bag": {
-            "DONUT": {
+            "SATCHEL": {
                 "count": 1
             }
         },
-        "cmds_ran": 137,
-        "effects": {},
-        "level": 9,
-        "manna": 6575,
-        "name": "Hisui#6217",
-        "points": 2325,
-        "streak": 0
-    },
-    "743059303342276661": {
-        "bag": {
-            "BREAD": {
-                "count": 5
+        "cmds_ran": 15,
+        "correct_answers": 12,
+        "effects": {
+            "ELIJAH": {
+                "count": 1,
+                "uses": 2
             },
-            "CHICKEN": {
-                "count": 5
-            },
-            "DONUT": {
-                "count": 5
+            "JOSHUA": {
+                "count": 2,
+                "uses": 4
             }
         },
-        "cmds_ran": 228,
+        "level": 3,
+        "manna": 1620,
+        "name": "Vyxento#6871",
+        "points": 650,
+        "streak": 4,
+        "wrong_answers": 0
+    },
+    "711828107061100615": {
+        "bag": {},
+        "cmds_ran": 2,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 0,
+        "name": "Shisui_#7863",
+        "points": 0,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "713191548791160832": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 3,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 50,
+        "name": "Hedge#6668",
+        "points": 25,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "721400830372347924": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 17,
+        "effects": {},
+        "level": 2,
+        "manna": 850,
+        "name": "\u212d\ud835\udd2c\ud835\udd2f\ud835\udd2f\ud835\udd32\ud835\udd2d\ud835\udd31\ud835\udd22\ud835\udd21??\ud835\udd0e\ud835\udd26\ud835\udd29\ud835\udd29\ud835\udd22\ud835\udd2f#5218",
+        "points": 425,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "721492756727464029": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 75,
+        "name": "The Love of money leads to evil#7999",
+        "points": 25,
+        "streak": 1,
+        "wrong_answers": 0
+    },
+    "731658530121318400": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 0,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 375,
+        "name": "\u2661\ua4af\ua4a4\ua018\ua3c2\ua326\u2661#1635",
+        "points": 125,
+        "streak": 5,
+        "wrong_answers": 0
+    },
+    "733966774982148107": {
+        "badges": [
+            "early bird"
+        ],
+        "bag": {
+            "DONUT": {
+                "count": 1
+            },
+            "SATCHEL": {
+                "count": 1
+            }
+        },
+        "cmds_ran": 166,
+        "correct_answers": 0,
         "effects": {
+            "ABRAHAM": {
+                "count": 1
+            },
+            "DANIEL": {
+                "count": 1
+            },
             "ELIJAH": {
                 "count": 1
             },
@@ -74,37 +414,7 @@
                 "count": 1
             },
             "JESUS": {
-                "count": 2
-            },
-            "LAZARUS": {
-                "count": 2
-            }
-        },
-        "level": 18,
-        "manna": 12972,
-        "name": "Paddington#3061",
-        "points": 4575,
-        "streak": 201
-    },
-    "829619198544183327": {
-        "bag": {
-            "BREAD": {
-                "count": 3
-            },
-            "CHICKEN": {
                 "count": 1
-            }
-        },
-        "cmds_ran": 476,
-        "effects": {
-            "ABRAHAM": {
-                "count": 1
-            },
-            "DANIEL": {
-                "count": 2
-            },
-            "JESUS": {
-                "count": 8
             },
             "JONAH": {
                 "count": 1
@@ -113,104 +423,357 @@
                 "count": 1
             },
             "REVELATION": {
-                "count": 2
+                "count": 9
             }
         },
-        "level": 34,
-        "manna": 19615,
-        "name": "w33h33#4066",
-        "points": 8633,
-        "streak": 41
+        "level": 12,
+        "manna": 6050,
+        "name": "Hisui#6217",
+        "points": 2875,
+        "streak": 3,
+        "wrong_answers": 0
+    },
+    "743059303342276661": {
+        "badges": [
+            "early bird"
+        ],
+        "bag": {
+            "BREAD": {
+                "count": 5
+            },
+            "CHICKEN": {
+                "count": 5
+            },
+            "DONUT": {
+                "count": 5
+            },
+            "SATCHEL": {
+                "count": 1
+            }
+        },
+        "cmds_ran": 295,
+        "correct_answers": 0,
+        "effects": {
+            "ELIJAH": {
+                "count": 3
+            },
+            "FRIDAY": {
+                "count": 1
+            },
+            "JESUS": {
+                "count": 2
+            },
+            "JONAH": {
+                "count": 2
+            },
+            "LAZARUS": {
+                "count": 5
+            }
+        },
+        "level": 18,
+        "manna": 12435,
+        "name": "Paddington#6969",
+        "points": 4600,
+        "streak": 229,
+        "wrong_answers": 0
+    },
+    "784615121154342952": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 0,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 1,
+        "manna": 1000,
+        "name": "JA#0206",
+        "points": 350,
+        "streak": 13,
+        "wrong_answers": 0
+    },
+    "797369145367855104": {
+        "bag": {},
+        "cmds_ran": 3,
+        "correct_answers": 9,
+        "effects": {},
+        "level": 0,
+        "manna": 675,
+        "name": "at.peace#0",
+        "points": 225,
+        "streak": 9,
+        "wrong_answers": 0
+    },
+    "817161627845132338": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 5,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 650,
+        "name": "saulgg#9176",
+        "points": 225,
+        "streak": 8,
+        "wrong_answers": 0
+    },
+    "817535273473671219": {
+        "bag": {},
+        "cmds_ran": 2,
+        "correct_answers": 4,
+        "effects": {},
+        "level": 0,
+        "manna": 275,
+        "name": "appleb0mb#0",
+        "points": 100,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "829619198544183327": {
+        "badges": [
+            "developer"
+        ],
+        "bag": {
+            "BREAD": {
+                "count": 5
+            },
+            "CHICKEN": {
+                "count": 5
+            },
+            "DONUT": {
+                "count": 5
+            },
+            "SATCHEL": {
+                "count": 1
+            }
+        },
+        "cmds_ran": 560,
+        "correct_answers": 22,
+        "effects": {
+            "JESUS": {
+                "count": 3,
+                "uses": 2
+            }
+        },
+        "level": 26,
+        "manna": 20663,
+        "name": "w33h33#0",
+        "points": 6475,
+        "streak": 1026,
+        "wrong_answers": 0
+    },
+    "839939138341699654": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 17,
+        "correct_answers": 4,
+        "effects": {},
+        "level": 2,
+        "manna": 1200,
+        "name": "hylc#0",
+        "points": 450,
+        "streak": 1,
+        "wrong_answers": 0
+    },
+    "847717557418983455": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 10,
+        "correct_answers": 14,
+        "effects": {},
+        "level": 1,
+        "manna": 1025,
+        "name": "zice777#0",
+        "points": 350,
+        "streak": 0,
+        "wrong_answers": 0
     },
     "853767635258572822": {
+        "badges": [],
         "bag": {
             "BREAD": {
                 "count": 1
             }
         },
-        "cmds_ran": 7,
+        "cmds_ran": 10,
+        "correct_answers": 0,
         "effects": {},
-        "level": 1,
+        "level": 0,
         "manna": 150,
         "name": "Dread#5091",
         "points": 50,
-        "streak": 2
+        "streak": 2,
+        "wrong_answers": 0
     },
     "872220768644268063": {
+        "badges": [],
         "bag": {},
         "cmds_ran": 0,
+        "correct_answers": 0,
         "effects": {},
         "level": 0,
         "manna": 75,
         "name": "Alister#5868",
         "points": 100,
-        "streak": 1
+        "streak": 1,
+        "wrong_answers": 0
     },
     "893340787520196618": {
+        "badges": [],
         "bag": {},
-        "cmds_ran": 15,
+        "cmds_ran": 28,
+        "correct_answers": 8,
         "effects": {},
-        "level": 1,
-        "manna": 900,
-        "name": "N\u012bL\u00f8#2645",
-        "points": 300,
-        "streak": 12
+        "level": 2,
+        "manna": 1575,
+        "name": "nilo_lin#0",
+        "points": 525,
+        "streak": 21,
+        "wrong_answers": 0
     },
     "905809652342718494": {
+        "badges": [],
         "bag": {},
         "cmds_ran": 0,
+        "correct_answers": 0,
         "effects": {},
         "level": 0,
         "manna": 75,
         "name": "Sabbath Keeper#3855",
         "points": 75,
-        "streak": 1
+        "streak": 1,
+        "wrong_answers": 0
+    },
+    "907831625683980309": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 0,
+        "name": "chokolayt#8877",
+        "points": 0,
+        "streak": 0,
+        "wrong_answers": 0
     },
     "908234266301829132": {
+        "badges": [
+            "developer"
+        ],
         "bag": {
             "BREAD": {
+                "count": 5
+            },
+            "CHICKEN": {
+                "count": 3
+            },
+            "DONUT": {
+                "count": 5
+            },
+            "SATCHEL": {
+                "count": 1
+            }
+        },
+        "cmds_ran": 1820,
+        "correct_answers": 16,
+        "effects": {
+            "ABRAHAM": {
                 "count": 2
             },
+            "DANIEL": {
+                "count": 2,
+                "uses": 4
+            },
+            "JESUS": {
+                "count": 1,
+                "uses": 2
+            },
+            "JOSHUA": {
+                "count": 2
+            },
+            "REVELATION": {
+                "count": 1
+            }
+        },
+        "level": 37,
+        "manna": 16350,
+        "name": "grizzly2578",
+        "points": 9279,
+        "streak": 3,
+        "wrong_answers": 0
+    },
+    "917153682599084062": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 3,
+        "correct_answers": 3,
+        "effects": {},
+        "level": 0,
+        "manna": 225,
+        "name": "Wild#2696",
+        "points": 75,
+        "streak": 3,
+        "wrong_answers": 0
+    },
+    "927060491296202823": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 0,
+        "name": "Celestius#6849",
+        "points": 0,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "927910424945520651": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 1,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 0,
+        "name": "Ligma#4460",
+        "points": 0,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "971331520453279794": {
+        "badges": [],
+        "bag": {},
+        "cmds_ran": 2,
+        "correct_answers": 0,
+        "effects": {},
+        "level": 0,
+        "manna": 125,
+        "name": "Lone Wanderer#7528",
+        "points": 50,
+        "streak": 0,
+        "wrong_answers": 0
+    },
+    "983916041384112168": {
+        "badges": [],
+        "bag": {
             "CHICKEN": {
                 "count": 2
             },
             "DONUT": {
-                "count": 2
-            }
-        },
-        "cmds_ran": 971,
-        "effects": {},
-        "level": 11,
-        "manna": 8027,
-        "name": "Grizzly.#8401",
-        "points": 2800,
-        "streak": 1
-    },
-    "909787406490796073": {
-        "bag": {},
-        "cmds_ran": 0,
-        "effects": {},
-        "level": 1,
-        "manna": 50,
-        "name": "audreyy#2145",
-        "points": 0,
-        "streak": 0
-    },
-    "983916041384112168": {
-        "bag": {
-            "DONUT": {
-                "count": 2
+                "count": 4
             },
             "MYCRATE": {
-                "count": 3
+                "count": 6
             }
         },
         "cmds_ran": 0,
+        "correct_answers": 0,
         "effects": {},
         "level": 0,
-        "manna": 1000,
+        "manna": 18761,
         "name": "Heroes Bible Trivia Bot#8475",
         "points": 0,
-        "streak": 777
+        "streak": 777,
+        "wrong_answers": 0
     }
 }

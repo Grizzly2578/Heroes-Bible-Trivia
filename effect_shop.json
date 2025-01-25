@@ -51,7 +51,7 @@
         "id": "JOSHUA",
         "image": "https://i.imgur.com/oD89N44.png",
         "description": "Freezes Time For 5 Seconds Just As The Sun Stopped For Joshua.",
-        "status": "unusable"
+        "status": "usable"
     },
     "JESUS": {
         "name": "JESUS EFFECT",
@@ -76,8 +76,8 @@
         "price": 100,
         "icon": "<:Revelation:985787800832069632>",
         "id": "REVELATION",
-        "image": "https://i.imgur.com/heyHLzZ.png",
+        "image": "https://i.imgur.com/72WHz9s.png",
         "description": "Halves The Match Time If All Your Answers Are Correct.",
-        "status": "unusable"
+        "status": "usable"
     }
 }

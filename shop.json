@@ -4,27 +4,30 @@
         "icon": "<:HeroesBread:985746428485849149>",
         "id": "bread",
         "image": "https://i.imgur.com/NIDYeQi.png",
-        "name": "BREAD",
+        "name": "HEROIC BREAD",
         "price": null,
-        "rarity": "Legendary"
+        "sell_price": null,
+        "rarity": "Heroic"
     },
     "CHICKEN": {
         "description": "Bida Ang Saya",
         "icon": "<:HeroesChicken:985744077632983070>",
         "id": "chicken",
         "image": "https://i.imgur.com/AELxYa4.png",
-        "name": "CHICKENJOY BUCKET",
+        "name": "HEROIC CHICKEN",
         "price": null,
-        "rarity": "Legendary"
+        "sell_price": null,
+        "rarity": "Heroic"
     },
     "DONUT": {
         "description": "A crispy Donut",
         "icon": "<:donut:985742788777885706>",
         "id": "donut",
         "image": "https://i.imgur.com/S0hqs6M.png",
-        "name": "DONUT",
+        "name": "HEROIC DONUT",
         "price": null,
-        "rarity": "Legendary"
+        "sell_price": null,
+        "rarity": "Heroic"
     },
     "MYCRATE": {
         "description": "Crate With Random Items",
@@ -33,6 +36,17 @@
         "image": "https://i.imgur.com/uLf6VRo.png",
         "name": "MYSTERY CRATE",
         "price": 1000,
-        "rarity": "Legendary"
+        "sell_price": 1000,
+        "rarity": "Uncommon"
+    },
+    "SATCHEL": {
+        "description": "A Satchel, used for effects storage",
+        "icon": "<:EffectsSatchel:991986825113653279>",
+        "id": "satchel",
+        "image": "https://i.imgur.com/8ktFYeO.png",
+        "name": "SATCHEL",
+        "price": 150,
+        "sell_price": null,
+        "rarity": "Common"
     }
 }

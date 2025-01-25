@@ -1,12 +1,16 @@
 import random
 import json
 
+from nextcord.ui import button
+
 from nextcord import Interaction, ButtonStyle, SlashOption, slash_command
 
 from nextcord.ui import Button, View
 
 from nextcord.ext import commands
-from config import discord, bot, owners, add_command_count, new_user, get_prefix, on_cooldown, zero_fix, zero_item_fix
+from config import discord, owners, add_command_count, new_user, on_cooldown, zero_fix, zero_item_fix
+
+  
 
 class bank(commands.Cog):
   def __init__(self, bot):
@@ -19,7 +23,7 @@ class bank(commands.Cog):
     with open("save.json", "r") as f:
       users = json.load(f)
     elijah = discord.Embed(
-      title="YOU GOT THAT MANNA BRUH",
+      title="YOU GOT THAT MANNA",
       description=f"Just Like Moses And The Israelites Back Then,\nYou Can Also Earn Manna In The Game\n You Have 🌾`{users[str(ctx.author.id)]['manna']}`."
     )
     await ctx.reply(embed=elijah)
@@ -56,112 +60,6 @@ class bank(commands.Cog):
         )
         await zero_fix()
         await ctx.reply(embed=moses2)
-
-        
-  #Leaderboard Top Command
-  @commands.group(name="top", aliases=["leaderboard", "lb"], invoke_without_command=True)
-  async def top(self, ctx):
-    await ctx.reply(f"The top command, commands: \n{get_prefix(bot, ctx)}top manna\n{get_prefix(bot, ctx)}top xp")
-  
-  @top.command(name="manna", aliases=["m"], pass_context=True)
-  @commands.cooldown(1, 3, commands.BucketType.user)
-  async def top_manna(self, ctx):
-    with open("save.json", "r") as f:
-      users = json.load(f)
-    x=10
-    leaderboard = {}
-    total=[]
-    for user in list(users):
-      name = users[str(user)]['name']
-      total_amt = users[str(user)]['manna']
-      leaderboard[total_amt] = name
-      total.append(total_amt)
-
-    total = sorted(total,reverse=True)
-    em = discord.Embed(
-    title = f'Top {x} Highest Manna Count',
-    description = 'The Highest Manna Count Recorded',
-    color = 0xFFCC4D)
-    index = 1
-    for amt in total:
-      if amt != 0:
-        id_ = leaderboard[amt]
-        
-        em.add_field(name = f'{index}: {id_}', value = f'  🌾`{amt}`', inline=False)      
-        
-        if index == x:
-          break
-        else:
-          index += 1
-    await zero_fix()
-    await ctx.send(embed = em)
-  
-  @top.command(name="xp", aliases=["experience"], pass_context=True)
-  @commands.cooldown(1, 3, commands.BucketType.user)
-  async def top_xp(self, ctx):
-    with open("save.json", "r") as f:
-      users = json.load(f)
-    x=10
-    leaderboard = {}
-    total=[]
-    for user in list(users):
-      name = users[str(user)]['name']
-      total_amt = users[str(user)]['points']
-      leaderboard[total_amt] = name
-      total.append(total_amt)
-
-    total = sorted(total,reverse=True)
-    em = discord.Embed(
-    title = f'Top {x} Highest Experience Count',
-    description = 'The Highest Experience Count Recorded',
-    color = 0x55ACEE)
-    index = 1
-    for amt in total:
-      if amt != 0:
-        id_ = leaderboard[amt]
-        
-        em.add_field(name = f'{index}: {id_}', value = f'  🔹`{amt}`', inline=False)      
-        
-        if index == x:
-          break
-        else:
-          index += 1
-    await zero_fix()
-    await ctx.send(embed = em)
-
-  @top.command(name="lvl", aliases=["level"], pass_context=True)
-  @commands.is_owner()
-  @commands.cooldown(1, 3, commands.BucketType.user)
-  async def top_lvl(self, ctx):
-    with open("save.json", "r") as f:
-      users = json.load(f)
-    x=10
-    leaderboard = {}
-    total=[]
-    for user in list(users):
-      name = users[str(user)]['name']
-      total_amt = users[str(user)]['level']
-      leaderboard[total_amt] = name
-      total.append(total_amt)
-
-    total = sorted(total,reverse=True)
-    em = discord.Embed(
-    title = f'Top {x} Highest Experience Count',
-    description = 'The Highest Experience Count Recorded',
-    color = 0x55ACEE)
-    index = 1
-    for amt in total:
-      if amt != 0:
-        id_ = leaderboard[amt]
-        
-        em.add_field(name = f'{index}: {id_}', value = f'  🔹`{amt}`', inline=False)      
-        
-        if index == x:
-          break
-        else:
-          index += 1
-    await zero_fix()
-    await ctx.send(embed = em)
     
   @commands.command(name="inventory", aliases=["inv"])
   @commands.cooldown(1, 3, commands.BucketType.user)
@@ -228,9 +126,9 @@ class bank(commands.Cog):
 
 
   
-  @commands.command(name="give")
+  @commands.command(name="_give")
   @commands.cooldown(1, 3, commands.BucketType.user)
-  async def give(self, ctx:commands.Context, user:discord.Member, count, item=None):
+  async def _give(self, ctx:commands.Context, user:discord.Member, count, item=None):
     await zero_item_fix()
     await zero_fix()
 
@@ -293,6 +191,13 @@ class bank(commands.Cog):
         )
         await interaction.response.edit_message(embed=embed, view=disabled)
     confirm1.callback = confirm1_callback
+
+    if item.upper() == "SATCHEL":
+      whygive = discord.Embed(
+        title = "No"
+      )
+      await ctx.reply(embed=whygive)
+      return
     
     if int(count) < 1:
       await ctx.reply("Ammount cannot be negative or 0.")
@@ -415,43 +320,6 @@ class bank(commands.Cog):
         color = 0xF79400
       )
       await ctx.reply(embed=famine)
-  
-  @top.after_invoke
-  async def top_cooldown(self, ctx):
-    await add_command_count(ctx.author)
-    for id in owners:
-      if id == ctx.author.id:
-        ctx.command.reset_cooldown(ctx)
-
-  @top.error
-  async def top_error(self, ctx:commands.Context, error):
-    await on_cooldown(ctx, error)
-  
-  @top_manna.after_invoke
-  async def top_cooldown(self, ctx):
-    await add_command_count(ctx.author)
-    for id in owners:
-      if id == ctx.author.id:
-        ctx.command.reset_cooldown(ctx)
-
-  @top_manna.error
-  async def top_manna_error(self, ctx:commands.Context, error):
-    await on_cooldown(ctx, error)
-  
-  @top_xp.after_invoke
-  async def top_xp_cooldown(self, ctx):
-    await add_command_count(ctx.author)
-    for id in owners:
-      if id == ctx.author.id:
-        ctx.command.reset_cooldown(ctx)
-
-  @top_xp.error
-  async def top_xp_error(self, ctx:commands.Context, error):
-    await on_cooldown(ctx, error)
-  
-  @top_lvl.error
-  async def top_lvl_error(self, ctx:commands.Context, error):
-    await on_cooldown(ctx, error)
 
   @inv.after_invoke
   async def inv_cooldown(self, ctx):
@@ -464,37 +332,7 @@ class bank(commands.Cog):
   async def inv_error(self, ctx:commands.Context, error):
     await on_cooldown(ctx, error)
 
-  @give.error
-  async def give_error(self, ctx:commands.Context, error):
-    await on_cooldown(ctx, error)
-    if isinstance(error, commands.MissingRequiredArgument):
-      embed = discord.Embed(
-        title="Invalid Usage!",
-        color=0xED4245
-      )
-      embed.add_field(
-        name="Syntax:",
-        value=f"<:GUI:953128943974776913> `{get_prefix(self.bot, ctx)}give` `user` `ammount` `item`",
-        inline=False
-      )
-      embed.add_field(
-        name="User Examples:",
-        value=f"<:GUI:953128943974776913> 829619198544183327\n<:GUI:953128943974776913> <@{self.bot.user.id}>",
-        inline=False
-      )
-      embed.add_field(
-        name="Examples:",
-        value=f"`+give <@{self.bot.user.name}> 1 donut`\n<:GUI:953128943974776913> Your donut will be given to <@{self.bot.user.id}>",
-        inline=False
-      )
-      await ctx.reply(embed=embed)
 
-  @give.after_invoke
-  async def cooldown_cooldown(self, ctx):
-    await add_command_count(ctx.author)
-    for id in owners:
-      if id == ctx.author.id:
-        ctx.command.reset_cooldown(ctx)
 
 
 

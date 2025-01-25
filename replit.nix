@@ -1,5 +1,10 @@
 { pkgs }: {
   deps = [
+    pkgs.pkg-config
+    pkgs.ncurses
+    pkgs.gdb
+    pkgs.libopus
+    pkgs.ffmpeg-full
     pkgs.python38Full
   ];
   env = {

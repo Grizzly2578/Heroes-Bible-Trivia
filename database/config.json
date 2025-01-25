@@ -1,0 +1,21 @@
+{
+    "ungivable_items": {
+        "satchel": "banned from give command"
+    },
+    "badges": {
+        "developer": {
+            "id": "developer",
+            "name": "Developer",
+            "description": "A badge only developers have!",
+            "icon": "<:developer:1056453236476891226>",
+            "image": "https://cdn.discordapp.com/emojis/704551520321929236.png"
+        },
+        "early bird": {
+            "id": "early bird",
+            "name": "Early Bird",
+            "description": "A badge given to those who were part in the early days of the Bot!",
+            "icon": "",
+            "image": ""
+        }
+    }
+}

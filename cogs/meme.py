@@ -4,14 +4,12 @@ import requests
 from nextcord.ext import commands
 from nextcord.ui import Button, View
 
-from config import discord
-
 class meme(commands.Cog):
   def __init__(self, bot):
     self.bot = bot
   @commands.command(name="meme", aliases=['memes'])
   async def meme(self, ctx):
-      content = requests.get("https://meme-api.herokuapp.com/gimme/memes").text
+      content = requests.get("https://meme-api.com/gimme/memes").text
       data = json.loads(content)
       posttitle = data['title']
       postimg = data['url']
@@ -20,7 +18,7 @@ class meme(commands.Cog):
       author = data['author']
 
       async def button_callback(interaction):
-          content = requests.get("https://meme-api.herokuapp.com/gimme/memes").text
+          content = requests.get("https://meme-api.com/gimme/memes").text
           data = json.loads(content)
           posttitle = data['title']
           postimg = data['url']
@@ -35,8 +33,8 @@ class meme(commands.Cog):
               await interaction.user.send(embed=embed)
 
           button3 = Button(label='Next Meme',
-                           style=discord.ButtonStyle.green)
-          button4 = Button(label='Save Post', style=discord.ButtonStyle.gray)
+                           style=nextcord.ButtonStyle.green)
+          button4 = Button(label='Save Post', style=nextcord.ButtonStyle.gray)
           button4.callback = button4_callback
           view1 = View()
           button3.callback = button_callback
@@ -48,8 +46,8 @@ class meme(commands.Cog):
       async def button2_callback(interaction):
           await interaction.user.send(embed=embed)
 
-      button1 = Button(label='Next Meme', style=discord.ButtonStyle.green)
-      button2 = Button(label='Save Post', style=discord.ButtonStyle.gray)
+      button1 = Button(label='Next Meme', style=nextcord.ButtonStyle.green)
+      button2 = Button(label='Save Post', style=nextcord.ButtonStyle.gray)
       button2.callback = button2_callback
       view = View()
       button1.callback = button_callback

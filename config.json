@@ -1,0 +1,40 @@
+{
+    "ungivable_items": {
+        "satchel": "banned from give command"
+    },
+    "badges": {
+        "developer": {
+            "id": "developer",
+            "name": "Developer",
+            "description": "A badge only developers have!",
+            "icon": "<:developer:1056453236476891226>",
+            "image": "https://cdn.discordapp.com/emojis/704551520321929236.png"
+        },
+        "early bird": {
+            "id": "early bird",
+            "name": "Early Bird",
+            "description": "A badge given to those who were part in the early days of the Bot!",
+            "icon": "",
+            "image": ""
+        }
+    },
+    "eval_codes": {
+        "cls": "clear()",
+        "clear": "clear()"
+    },
+    "prefixes": {
+        "default": "+",
+        "944155967011041340": "+",
+        "821992080893149187": "+",
+        "818487339277746216": "+",
+        "981272037869903872": "+",
+        "817164113650253864": "+",
+        "470009654404055042": "+",
+        "928443761137176606": "+",
+        "909051566152110080": "+",
+        "1019591432576700478": "+",
+        "953568605197467668": "+",
+        "1108589245741928488": "+",
+        "985298076669444157": "+"
+    }
+}

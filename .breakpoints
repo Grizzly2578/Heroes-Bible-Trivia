@@ -1,5 +1,37 @@
 {
   "files": {
+    "cogs/global_chat.py": [
+      {
+        "id": "7cd0ab15-f59e-49be-bc47-2471116c8585",
+        "line": 17,
+        "version": 3095,
+        "index": 207
+      }
+    ],
+    "cogs/leaderboard.py": [
+      {
+        "id": "395e581e-e6f8-4ae3-8bbc-e0e5af8a061f",
+        "line": 73,
+        "version": 2319,
+        "index": 2621
+      }
+    ],
+    "cogs/slash.py": [
+      {
+        "id": "ef0e5255-4b79-475c-a37c-d64dca321e3f",
+        "line": 212,
+        "version": 4249,
+        "index": 7763
+      }
+    ],
+    "config.py": [
+      {
+        "id": "2795a987-06f4-43a1-aab6-faf120c93579",
+        "line": 85,
+        "version": 6045,
+        "index": 3004
+      }
+    ],
     "effects.py": [
       {
         "id": "e4775acf-8a38-48c1-80df-8e11aefe1289",
@@ -8,17 +40,25 @@
         "index": 9181
       }
     ],
+    "main.py": [
+      {
+        "id": "6e0c561f-7bab-40a0-b37a-cb4c3ac6c1fd",
+        "line": 112,
+        "version": 3649,
+        "index": 4322
+      }
+    ],
     "save.json": [
       {
         "id": "33c8188b-c1e5-4afa-8c7a-168acff56319",
         "line": 1,
-        "version": 3366,
+        "version": 4114,
         "index": 0
       },
       {
         "id": "b28fb3ff-d80a-49c5-a521-969653523993",
         "line": 1,
-        "version": 3366,
+        "version": 4114,
         "index": 0
       }
     ]
