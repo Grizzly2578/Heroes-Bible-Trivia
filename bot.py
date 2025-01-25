@@ -419,5 +419,11 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
-# keep_alive()
-bot.run("OTgzOTE2MDQxMzg0MTEyMTY4.GN5ZrW.4NxQqDMfGcBAbDRk0dOtoi3xLWGdqctXj6haHU")
+from os import environ
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+token = environ["TOKEN"]
+bot.run(token)
